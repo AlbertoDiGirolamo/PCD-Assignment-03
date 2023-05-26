@@ -4,7 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10f327ab-4c40-4c1e-8672-caa4f478587c" name="Changes" comment="" />
+    <list default="true" id="10f327ab-4c40-4c1e-8672-caa4f478587c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ex1/actors/DocumentAnalyzerActor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ex1/actors/ScanFolderActor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ex1/commands/documentanalyzer/CountLines.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ex1/commands/scanfolder/Scan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ex1/commands/view/FinalResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ex1/model/Document.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ex1/model/Folder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ex1/model/Strings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ex1/ConsoleMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex1/ConsoleMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ex1/actors/ResultActor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex1/actors/ResultActor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ex1/actors/RootActor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex1/actors/RootActor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ex1/commands/view/IncrementalResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex1/commands/view/IncrementalResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ex1/view/ConsoleActor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex1/view/ConsoleActor.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +38,18 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -27,7 +59,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -36,7 +68,7 @@
     <option name="version" value="2" />
   </component>
   <component name="ProjectId" id="2QENmi3D084m0rcMOeiWXW0DHfL" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -45,17 +77,36 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/Users/albertodigirolamo/Documents/Github/PCD-Assignment-03/PCD-Assignment-03/src/main/java/ex1/mondel"
+    "last_opened_file_path": "/Users/albertodigirolamo/Documents/Github/PCD-Assignment-03/PCD-Assignment-03/src/main/java/ex1/model",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/ex1/model" />
       <recent name="$PROJECT_DIR$/src/main/java/ex1/mondel" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/ex1/mondel" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="PCD-Assignment-03" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="PCD-Assignment-03" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

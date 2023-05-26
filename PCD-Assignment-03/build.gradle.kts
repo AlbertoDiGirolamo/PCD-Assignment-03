@@ -5,6 +5,7 @@ plugins {
 group = "org.example"
 version = "1.0-SNAPSHOT"
 
+
 repositories {
     mavenCentral()
 }
@@ -15,6 +16,8 @@ dependencies {
 
     implementation(platform("com.typesafe.akka:akka-bom_2.13:2.8.2"))
     implementation("com.typesafe.akka:akka-actor-typed_2.13")
+
+    implementation("org.slf4j:slf4j-api:2.0.7")
 
 }
 
