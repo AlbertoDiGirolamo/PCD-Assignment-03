@@ -11,8 +11,7 @@ public class ConsoleMain {
     public static Behavior<Void> create(){
         return Behaviors.setup(
                 context -> {
-                    //context.spawn(RootActor.create(RootActor.ViewType.CONSOLE), "rootActor");
-                    context.getLog().info("Log prova");
+                    context.spawn(RootActor.create(RootActor.ViewType.CONSOLE), "rootActor");
                     return Behaviors.receive(Void.class)
                             .onSignal(Terminated.class, sig -> Behaviors.stopped())
                             .build();

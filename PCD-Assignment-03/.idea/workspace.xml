@@ -5,25 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="10f327ab-4c40-4c1e-8672-caa4f478587c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ex1/actors/DocumentAnalyzerActor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ex1/actors/ScanFolderActor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ex1/commands/documentanalyzer/CountLines.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ex1/commands/scanfolder/Scan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ex1/commands/view/FinalResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ex1/model/Document.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ex1/model/Folder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ex1/model/Strings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ex1/utils/Toast.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.4/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ex1/ConsoleMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex1/ConsoleMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ex1/actors/DocumentAnalyzerActor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex1/actors/DocumentAnalyzerActor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ex1/actors/GUIActor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex1/actors/GUIActor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ex1/actors/ResultActor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex1/actors/ResultActor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ex1/actors/RootActor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex1/actors/RootActor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ex1/actors/ScanFolderActor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex1/actors/ScanFolderActor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ex1/commands/documentanalyzer/CountLines.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex1/commands/documentanalyzer/CountLines.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ex1/commands/result/AddNewResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex1/commands/result/AddNewResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ex1/commands/root/Start.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex1/commands/root/Start.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ex1/commands/scanfolder/Scan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex1/commands/scanfolder/Scan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ex1/commands/view/FinalResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex1/commands/view/FinalResult.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ex1/commands/view/IncrementalResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex1/commands/view/IncrementalResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ex1/view/ConsoleActor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex1/view/ConsoleActor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ex1/model/AnalyzedFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex1/utils/AnalyzedFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ex1/model/Document.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex1/utils/Document.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ex1/model/Folder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex1/utils/Folder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ex1/model/Interval.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex1/utils/Interval.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ex1/model/Report.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex1/utils/Report.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ex1/model/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex1/utils/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ex1/model/SetupInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex1/utils/SetupInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ex1/model/Strings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex1/utils/Strings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ex1/view/ConsoleActor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex1/actors/ConsoleActor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,12 +90,13 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/Users/albertodigirolamo/Documents/Github/PCD-Assignment-03/PCD-Assignment-03/src/main/java/ex1/model",
+    "last_opened_file_path": "/Users/albertodigirolamo/Documents/Github/PCD-Assignment-03/PCD-Assignment-03/src/main/java/ex1/utils",
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/ex1/utils" />
       <recent name="$PROJECT_DIR$/src/main/java/ex1/model" />
       <recent name="$PROJECT_DIR$/src/main/java/ex1/mondel" />
     </key>
@@ -94,19 +105,24 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="PCD-Assignment-03" />
+    <configuration name="ConsoleMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ex1.ConsoleMain" />
+      <module name="PCD-Assignment-03.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ex1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="PCD-Assignment-03" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ConsoleMain" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
