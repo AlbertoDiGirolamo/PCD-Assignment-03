@@ -5,26 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="10f327ab-4c40-4c1e-8672-caa4f478587c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ex2/BrushManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ex2/ColorChangeListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ex2/ConnectionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ex2/MouseMovedListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ex2/PixelArtMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ex2/PixelGrid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ex2/PixelGridEventListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ex2/PixelGridView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ex2/VisualiserPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ex2/messages/InitMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ex2/messages/JoinMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ex2/messages/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ex2/messages/MovedMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.4/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +95,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PixelArtMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="PixelArtMain" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ex2.PixelArtMain" />
       <module name="PCD-Assignment-03.main" />
       <extension name="coverage">
@@ -137,6 +121,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.ConsoleMain" />
+      <item itemvalue="Application.PixelArtMain" />
+      <item itemvalue="Application.PixelArtServer" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.PixelArtMain" />
