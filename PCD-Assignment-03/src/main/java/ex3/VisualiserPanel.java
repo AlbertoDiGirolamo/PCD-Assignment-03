@@ -5,10 +5,11 @@ import java.awt.*;
 import java.rmi.RemoteException;
 
 public class VisualiserPanel extends JPanel {
-    private static final int STROKE_SIZE = 1;
     private final BrushManager brushManager;
     private final PixelGrid grid;
     private final int w,h;
+    private static final int BRUSH_SIZE = 10;
+    private static final int STROKE_SIZE = 1;
 
     public VisualiserPanel(PixelGrid grid, BrushManager brushManager, int w, int h){
         setSize(w,h);
@@ -20,7 +21,7 @@ public class VisualiserPanel extends JPanel {
     }
 
     public void paint(Graphics g){
-        try{
+        try {
             Graphics2D g2 = (Graphics2D) g;
 
             g2.setRenderingHint(RenderingHints.KEY_ANTIALIASING,
@@ -54,11 +55,25 @@ public class VisualiserPanel extends JPanel {
                 }
             }
 
-            brushManager.draw(g2);
-        } catch (RemoteException e){
-            System.err.println("Client exception: " + e.toString());
-            e.printStackTrace();
+            drawBrushes(g2);
+        }catch (Exception e){
+            System.err.println(e);
         }
+    }
 
+    private void drawBrushes(Graphics2D g) throws RemoteException {
+        brushManager.getBrushes().forEach(brush -> {
+            try {
+                g.setColor(new java.awt.Color(brush.getColor()));
+                var circle = new java.awt.geom.Ellipse2D.Double(brush.getX() - BRUSH_SIZE / 2.0, brush.getY() - BRUSH_SIZE / 2.0, BRUSH_SIZE, BRUSH_SIZE);
+                // draw the polygon
+                g.fill(circle);
+                g.setStroke(new BasicStroke(STROKE_SIZE));
+                g.setColor(Color.BLACK);
+                g.draw(circle);
+            }catch (Exception ex){
+                System.err.println(ex);
+            }
+        });
     }
 }
